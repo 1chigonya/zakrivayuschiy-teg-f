@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -9,10 +9,91 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
+    <!-- Фавикон -->
+    <link rel="icon" href="./svg/favicon-opt.svg" sizes="any" />
+    <!-- Фолбек Фавикон для старых браузеров -->
+    <link rel="icon" href="./images/favicon-opt.ico" type="image/svg+xml" />
+    <!-- Фавикон для новых браузеров -->
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+    <!-- Apple -->
+    <!-- Конец Фавикон -->
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+      <div class="header__logo">&lt;/html&gt;</div>
+      <h1 class="header__title">Закрывающий тег</h1>
+    </header>
+    <main>
+      <!-- Карточки -->
+      <section class="sprints">
+        <ul class="sprints__card-list">
+          <li class="sprints__card-list-item">
+            <article class="sprints__card">
+              <h2 class="sprints__card-title">
+                Фритрек и нулевой спринт: Подготовка к работе
+              </h2>
+              <div class="img-wrap">
+                <img
+                  class="sprints__card-image"
+                  src="./images/car.png"
+                  alt=""
+                />
+                <p class="label">Лейбл</p>
+              </div>
+              <div class="card-text">
+                <p>
+                  Это было самое начало пути. На этом этапе важно было
+                  проникнуться основами и настроиться на учёбу. И, возможно,
+                  подумать, как новые знания могут повлиять на ваше будущее.
+                </p>
+                <p>Место для ваших воспоминаний о начале обучения.</p>
+              </div>
+              <div class="card-buttons">
+                <button></button>
+                <button class="button like">
+                  <span class="button-text">Like</span>
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="sprints__card-list-item">
+            <article class="sprints__card">
+              <h2 class="sprints__card-title">
+                Фритрек и нулевой спринт: Подготовка к работе
+              </h2>
+              <div class="img-wrap">
+                <img
+                  class="sprints__card-image"
+                  src="./images/car.png"
+                  alt=""
+                />
+                <p class="label">Лейбл</p>
+              </div>
+              <div class="card-text">
+                <p>
+                  Это было самое начало пути. На этом этапе важно было
+                  проникнуться основами и настроиться на учёбу. И, возможно,
+                  подумать, как новые знания могут повлиять на ваше будущее.
+                </p>
+                <p>Место для ваших воспоминаний о начале обучения.</p>
+              </div>
+              <div class="card-buttons">
+                <button></button>
+                <button class="button like">
+                  <span class="button-text">Like</span>
+                </button>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <button class="button save">
+          <svg class="floppy" viewBox="0 0 28 28">
+            <use href="./svg/floppy-opt.svg#floppy-disk"></use>
+          </svg>
+          <span class="button-text">Сохранить на память</span>
+        </button>
+      </section>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

@@ -1,1 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-main: "Inter";
+  --font-accent: "PressStart2P";
+
+  --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --text-size: 18px;
+  --label-size: 14px;
+
+  /* Вес шрифта */
+  --main-weight: 400;
+  --title-weight: 700;
+
+  --main-color: #000;
+  --background-color: #fff;
+
+  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
+  --header-padding-inline: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
+  --save-button-padding-block: 15px;
+  --save-button-padding-inline: 20px;
+}
