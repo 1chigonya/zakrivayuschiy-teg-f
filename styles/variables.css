@@ -15,10 +15,32 @@
 
   --main-color: #000;
   --background-color: #fff;
+  --animation-fill-color: #FF0000;
 
   --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
   --header-padding-inline: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
   --save-button-padding-block: 15px;
   --save-button-padding-inline: 20px;
+
+  --background-gradient: 
+  repeating-linear-gradient(
+    to right,
+    #d3d3d3 0,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  linear-gradient(
+    to bottom,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
 }
