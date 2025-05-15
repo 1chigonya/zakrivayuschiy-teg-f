@@ -239,6 +239,38 @@ opacity: 75%;
   text-transform: uppercase;
 }
 
+.filter-1 {
+  filter: brightness(120%);
+}
+
+.filter-2 {
+  filter: contrast(120%);
+}
+
+.filter-3 {
+  filter: sepia(20%);
+}
+
+.filter-4 {
+  filter: grayscale(0.5);
+}
+
+.filter-5 {
+  filter: saturate(150%);
+}
+
+.filter-6 {
+  filter: invert(20%);
+}
+
+.filter-7 {
+  filter: blur(2px);
+}
+
+.filter-8 {
+  filter: hue-rotate(0.4turn);
+}
+
 @media (width > 375px) {
   .button-save {
     flex-direction: row;
