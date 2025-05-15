@@ -70,11 +70,11 @@
 
 /* Зажим */
 
-.like-icon:active .core {
+.card__icon-button:active .core {
   fill: var(--animation-fill-color);
   transition: fill 0.3s ease;
 }
-.like-icon:active .main-body {
+.card__icon-button:active .main-body {
   fill: var(--animation-fill-color);
   transition: fill 0.3s 0.05s ease;
 }

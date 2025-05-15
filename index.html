@@ -150,13 +150,34 @@
             </article>
           </li>
         </ul>
-        <button class="button button-save button-plain">
+        <button
+          class="button button-save button-plain"
+          type="button"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
           <svg class="floppy" viewBox="0 0 28 28">
             <use href="./svg/floppy-opt.svg#floppy-disk"></use>
           </svg>
           <span class="button-text">Сохранить на память</span>
         </button>
       </section>
+
+      <dialog id="dialog-id" class="dialog">
+        <div class="title-wrap">
+          <svg class="floppy" viewBox="0 0 28 28" width="39px" height="39px">
+            <use href="./svg/floppy-opt.svg#floppy-disk"></use>
+          </svg>
+          <p class="dialog__title">Вставьте дискету, чтобы продолжить</p>
+        </div>
+        <button
+          type="button"
+          onclick="window['dialog-id'].close()"
+          class="button button-dialog button-plain"
+        >
+          <span class="button-text">ok</span>
+        </button>
+      </dialog>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
