@@ -1,1 +1,1 @@
-https://github.com/1chigonya/zakrivayuschiy-teg-f.git
+https://1chigonya.github.io/zakrivayuschiy-teg-f/
